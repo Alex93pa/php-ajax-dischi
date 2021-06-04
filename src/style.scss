@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+#app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    .album-container{
+        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        flex-grow: 1;
+        width: 100%;
+        align-self: stretch;
+        justify-content: space-between;
+    
+        .album{
+            /* width: calc(100% / 5); */
+            flex-basis: 200px;
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1;
+    
+            .album img{
+                height: 200px;
+                width: 100%;
+                width: 200px;
+                object-fit: cover;
+                box-shadow: 0 0 7px rgba(0, 0, 0, .8);
+            }
+        }
+    }
+}

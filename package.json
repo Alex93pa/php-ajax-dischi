@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Alex93pa/php-ajax-dischi/issues"
   },
-  "homepage": "https://github.com/Alex93pa/php-ajax-dischi#readme"
+  "homepage": "https://github.com/Alex93pa/php-ajax-dischi#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.19",
+    "webpack-cli": "^4.7.0"
+  }
 }
