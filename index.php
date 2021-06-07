@@ -23,10 +23,7 @@
                 <h5 class="anno">{{ album.year }}</h5>
 
             </div>
-
         </div>
-
-
 
     </div>
     <script src="script.js"></script>
